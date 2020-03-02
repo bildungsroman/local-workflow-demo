@@ -63,7 +63,7 @@ Resources:
         - ResourceName: Consumer
       CodeUri: src/Consumer
       Handler: index.handler
-      Runtime: nodejs12.x
+      Runtime: nodejs10.x
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
