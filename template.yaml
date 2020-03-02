@@ -34,7 +34,7 @@ Resources:
         - ResourceName: Producer
       CodeUri: src/Producer
       Handler: index.handler
-      Runtime: nodejs10.x
+      Runtime: nodejs12.x
       MemorySize: !Ref EnvConfigmemoryAsString
       Timeout: 30
       Tracing: Active
