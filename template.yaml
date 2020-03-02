@@ -34,7 +34,7 @@ Resources:
         - ResourceName: Producer
       CodeUri: src/Producer
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: nodejs12.x
       MemorySize: !Ref EnvConfigmemoryAsString
       Timeout: 30
       Tracing: Active
@@ -63,7 +63,7 @@ Resources:
         - ResourceName: Consumer
       CodeUri: src/Consumer
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: nodejs12.x
       MemorySize: 3008
       Timeout: 30
       Tracing: Active
